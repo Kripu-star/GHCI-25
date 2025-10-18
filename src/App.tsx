@@ -1,12 +1,15 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import LandingPage from './components/Landingpage'
+
+import Auth from './components/auth'
+import Landingpage from './components/Landingpage'
 
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <LandingPage />
+      <Landingpage />
+     <Navbar />
+      <Auth />
     </div>
   )
 }
