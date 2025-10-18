@@ -7,8 +7,8 @@ import Landingpage from './components/Landingpage'
 const App = () => {
   return (
     <div>
+      <Navbar />
       <Landingpage />
-     <Navbar />
       <Auth />
     </div>
   )
